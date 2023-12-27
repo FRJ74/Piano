@@ -1,5 +1,9 @@
 /* Global stylings */
-* , ::before, ::after{
+html {
+  box-sizing: border-box;
+}
+
+* , *::before, *::after{
     box-sizing: inherit;
   }
 
@@ -11,7 +15,7 @@
     width: 992px;
     height: 290px;
     margin: 80px auto;
-    padding: 90px 20px o 20px;
+    padding: 90px 20px 0 20px;
   }
 
   .keys {
