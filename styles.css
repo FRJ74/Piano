@@ -1,0 +1,22 @@
+/* Global stylings */
+* , ::before, ::after{
+    box-sizing: inherit;
+  }
+
+  /* Main stylings */
+
+  /* Classes & ids */
+  #piano {
+    background-color: #00471b;
+    width: 992px;
+    height: 290px;
+    margin: 80px auto;
+    padding: 90px 20px o 20px;
+  }
+
+  .keys {
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+    padding-left: 2px;
+  }
