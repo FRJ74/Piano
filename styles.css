@@ -24,3 +24,23 @@ html {
     height: 180px;
     padding-left: 2px;
   }
+
+  .key {
+    background-color: #fff;
+    position: relative;
+    width: 41px;
+    height: 175px;
+    margin: 2px;
+    float: left;
+  }
+
+  /* Pseudo-selectors */
+
+  .key.black--key::after {
+    background-color: #1d1e22;
+    content: "";
+    position: absolute;
+    left: -18px;
+    width: 32px;
+    height: 100px;
+  }
